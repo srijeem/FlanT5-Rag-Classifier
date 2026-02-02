@@ -1,7 +1,7 @@
 **Overview**
 
 
-This project performs text classification of BBC news articles using a DistilBERT transformer model. The dataset contains labeled news articles, and the goal is to predict the category of each article. The project demonstrates fine-tuning a pre-trained transformer on a multi-class classification task with high accuracy.
+This project implements a Retrieval-Augmented Large Language Model (LLM)** for text complexity classification using **Flan-T5**, **LoRA (PEFT)** fine-tuning, and **FAISS-based retrieval**.  An interactive **Streamlit web application** is deployed for real-time inference.
 
 **Tech**
 
