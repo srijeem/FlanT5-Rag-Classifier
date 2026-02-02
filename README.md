@@ -1,16 +1,19 @@
-Overview
+**Overview**
+
+
 This project performs text classification of BBC news articles using a DistilBERT transformer model. The dataset contains labeled news articles, and the goal is to predict the category of each article. The project demonstrates fine-tuning a pre-trained transformer on a multi-class classification task with high accuracy.
 
-Tech
-Python, PyTorch, HuggingFace Transformers, Datasets, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
+**Tech**
 
-Outcome
-Achieved 97.2% test accuracy with strong precision, recall, and F1 scores. This model can classify news articles efficiently into their correct categories, supporting automated content analysis and categorization workflows.
+Python, PyTorch, HuggingFace Transformers, LoRA / PEFT, Retrieval-Augmented Generation (RAG), FAISS, Sentence Transformers, scikit-learn, Streamlit,
 
-Tech
 
-Python, PyTorch, HuggingFace Transformers, LoRA / PEFT, Retrieval-Augmented Generation (RAG), FAISS, Sentence Transformers, scikit-learn, Streamlit, Google Colab
+**Outcome**
 
-Outcome
 
-Achieved 86.8% accuracy and 0.74 macro-F1 on held-out test data. Retrieval-augmented prompting improved model reasoning and consistency over zero-shot baselines. The final solution was deployed as an interactive Streamlit web application for real-time, context-aware text classification.
+Achieved 86.8% accuracy and 0.74 macro-F1 on held-out test data. Retrieval-augmented prompting improved model reasoning and consistency over zero-shot baselines.The final solution was deployed as an interactive Streamlit web application for real-time, context-aware text classification.
+
+
+
+
+ 
