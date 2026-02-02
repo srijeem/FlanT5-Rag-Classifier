@@ -1,7 +1,11 @@
 **Overview**
 
+Classify BBC news articles into complexity levels (`easy`, `medium`, `hard`)
+- **Model**: `google/flan-t5-base`
+- **Fine-tuning**: LoRA (Low-Rank Adaptation) for parameter-efficient training
+- **Retrieval**: FAISS + Sentence Transformers (RAG)
+- **Deployment**: Streamlit web app exposed via ngrok (Google Colab compatible)
 
-This project implements a Retrieval-Augmented Large Language Model (LLM)** for text complexity classification using **Flan-T5**, **LoRA (PEFT)** fine-tuning, and **FAISS-based retrieval**.  An interactive **Streamlit web application** is deployed for real-time inference.
 
 **Tech**
 
